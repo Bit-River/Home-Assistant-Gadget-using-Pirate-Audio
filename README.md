@@ -9,5 +9,11 @@ Requires at least the following installed on the Pi Zero:
 
 ```sudo apt install python-rpi.gpio python-spidev python-pil python-numpy sox libsox-fmt-mp3```
 
+---
+
+Pirate Audio pHAT:
+
+https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-pirate-audio 
+
 
 
