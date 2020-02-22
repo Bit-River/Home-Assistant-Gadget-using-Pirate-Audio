@@ -124,7 +124,7 @@ def draw_sensor_panel(draw, grid_ref, entity, icon_choice, **kwargs): # **kwargs
 		for key, value in kwargs.iteritems():
 			if key == "low_value":
 				if float(state_ha) <= value:
-					threshold_colour = "mediumaquamarine"
+					threshold_colour = "cyan"
 			elif key == "high_value":
 				if float(state_ha) >= value:
 					threshold_colour = "orangered"
