@@ -87,8 +87,8 @@ def handle_button(pin):
 for pin in BUTTONS:
     GPIO.add_event_detect(pin, GPIO.FALLING, handle_button, bouncetime=400)
 
-HASS_IP = "http://192.168.178.181:8123/api/states/"
-AUTH_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI4ZTYxOTUzMjBmZmU0NWViYmRhMTVjZDQwMzFlYjYzZCIsImlhdCI6MTU4MjExNzAyNywiZXhwIjoxODk3NDc3MDI3fQ.8VO1W11Cy9SU-ljeWMm_9MouGhm2_Kx3d6Y2ZVGhfdU"
+HASS_IP = "http://xxx.xxx.xxx.xxx:8123/api/states/" # Replace xxx with HA IP
+AUTH_TOKEN = " Home Assistant Auth Token " # Create Token in Home Assistant
 
 
 def get_ha_info(entity_id):
