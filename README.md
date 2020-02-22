@@ -11,9 +11,10 @@ Requires at least the following installed on the Pi Zero:
 
 ---
 
-Pirate Audio pHAT:
+Pirate Audio pHAT, Speaker version used:
 
 https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-pirate-audio 
 
+---
 
 
