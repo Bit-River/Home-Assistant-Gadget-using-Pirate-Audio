@@ -120,12 +120,12 @@ def draw_sensor_panel(draw, grid_ref, entity, icon_choice, **kwargs): # **kwargs
 	state_ha, unit_ha = get_ha_info(entity)
 
 	threshold_colour = "limegreen" # Colour for normal value range. For colour choices see - https://drafts.csswg.org/css-color-4/#named-colors
-	if kwargs:
+	if kwargs and state_ha != "???" and unit_ha != "???":
 		for key, value in kwargs.iteritems():
-			if key == "low_value" and state_ha != "???" and unit_ha != "???":
+			if key == "low_value":
 				if float(state_ha) <= value:
 					threshold_colour = "cyan"
-			elif key == "high_value" and state_ha != "???" and unit_ha != "???":
+			elif key == "high_value":
 				if float(state_ha) >= value:
 					threshold_colour = "orangered"
 
