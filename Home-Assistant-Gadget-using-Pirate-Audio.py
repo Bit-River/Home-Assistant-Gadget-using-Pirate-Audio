@@ -37,7 +37,7 @@ def wipe_screen(screen_number):
 	draw[screen_number] = ImageDraw.Draw(image[screen_number])
 
 # Set up Fonts
-mdifont60 = ImageFont.truetype("/usr/share/fonts/truetype/msttcorefonts/materialdesignicons-webfont.ttf", 45)
+mdifont45 = ImageFont.truetype("/usr/share/fonts/truetype/msttcorefonts/materialdesignicons-webfont.ttf", 45)
 font30 = ImageFont.truetype("/usr/share/fonts/truetype/msttcorefonts/arial.ttf", 30)
 font20 = ImageFont.truetype("/usr/share/fonts/truetype/msttcorefonts/arial.ttf", 20)
 
@@ -142,7 +142,7 @@ def draw_sensor_panel(draw, grid_ref, entity, icon_choice, **kwargs): # **kwargs
 def grid_position(type, grid_ref, displayed_text):
 
 	if type == "icon":
-		font = mdifont60
+		font = mdifont45
 	elif type == "state":
 		font = font30
 	else:
