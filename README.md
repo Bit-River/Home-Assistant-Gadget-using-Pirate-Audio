@@ -7,7 +7,7 @@ Display (240 x 240), Audio Notifications, and 4 Assignable buttons using a Raspb
 
 Requires at least the following installed on the Pi Zero:
 
-```sudo apt install python-rpi.gpio python-spidev python-pil python-numpy sox libsox-fmt-mp3```
+```sudo apt install python-rpi.gpio python-spidev python-pil sox libsox-fmt-mp3```
 
 The Material Design Icon set is also required and can be downloaded here:
 
