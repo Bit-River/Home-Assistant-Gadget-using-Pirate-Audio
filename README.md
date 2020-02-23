@@ -16,7 +16,7 @@ https://materialdesignicons.com/
 
 ---
 
-Pirate Audio pHAT, Speaker version used:
+Hardware install instructions for Pirate Audio pHAT, Speaker version used:
 
 https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-pirate-audio 
 
