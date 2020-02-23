@@ -9,6 +9,11 @@ Requires at least the following installed on the Pi Zero:
 
 ```sudo apt install python-rpi.gpio python-spidev python-pil python-numpy sox libsox-fmt-mp3```
 
+The Material Design Icon set is also required and can be downloaded here:
+
+https://materialdesignicons.com/ 
+
+
 ---
 
 Pirate Audio pHAT, Speaker version used:
