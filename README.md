@@ -1,5 +1,5 @@
 # Home-Assistant-Gadget-using-Pirate-Audio
-Display (240 x 240) for HA sensor readings etc., Audio Notifications, and 4 Assignable buttons using a Raspberry Pi Zero for Home Assistant using the 'Pirate Audio' pHAT from Pimoroni. With Icon colour changes for user-defined low & high values.
+Display (240 x 240) for HA sensor readings etc., Audio Notifications, and 4 Assignable buttons using a Raspberry Pi Zero with the 'Pirate Audio' pHAT from Pimoroni. Icon colour changes for user-defined low & high values.
 
 ---
 ![Sensor Data Screen Example](https://raw.githubusercontent.com/Bit-River/Home-Assistant-Gadget-using-Pirate-Audio/master/screen-example.png)
